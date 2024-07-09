@@ -1,41 +1,267 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Portfolio | Nguyen Phuc Thinh</title>
-    <meta name="title" content="DeveloperFolio | Developer Portfolio Template" />
-    <meta name="description"
-        content="Software Developer Portfolio Template that helps you showcase your work and skills as a software developer" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="DeveloperFolio | Developer Portfolio Template" />
-    <meta property="og:description"
-        content="Software Developer Portfolio Template that helps you showcase your work and skills as a software developer" />
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://developerfolio.js.org/" />
-    <meta property="twitter:title" content="DeveloperFolio | Developer Portfolio Template" />
-    <meta property="twitter:description"
-        content="Software Developer Portfolio Template that helps you showcase your work and skills as a software developer" />
-    <meta name="msapplication-TileColor" content="#603cba" />
-    <meta name="theme-color" content="#6c63ff" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/portfolio/favicon-32x32.png?v8=qAJ44G5Bm7" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/portfolio/favicon-16x16.png?v8=qAJ44G5Bm7" />
-    <link rel="mask-icon" href="/portfolio/safari-pinned-tab.svg?v8=qAJ44G5Bm7" color="#885bd5" />
-    <link rel="shortcut icon" href="/portfolio/favicon.ico?v8=qAJ44G5Bm7" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/portfolio/apple-touch-icon.png?v8=qAJ44G5Bm7" />
-    <link rel="manifest" href="/portfolio/manifest.json" />
-    <link rel="preload" href="/static/media/Montserrat-Regular.ee653992.ttf" as="font" type="font/woff" crossorigin />
-    <link rel="preload" href="/static/media/Agustina.21f233e1.woff" as="font" type="font/woff" crossorigin />
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135618960-2"></script>
-    <script>function gtag() { dataLayer.push(arguments) } window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-135618960-2")</script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.4/css/all.min.css" />
-    <script defer="defer" src="/portfolio/static/js/main.7bb766ab.js"></script>
-    <link href="/portfolio/static/css/main.001a1b36.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
 </head>
 
-<body><noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+			<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar"
+				aria-expanded="false" aria-controls="navbar"><i></i></a>
+			<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+				<div class="text-center">
+					<div class="author-img" style="background-image: url(images/about.jpg);"></div>
+					<h1 id="colorlib-logo"><a href="index.html">Đặng Huỳnh Như Y</a></h1>
+					<span class="position">
+						<a href="/pdf/Resume_DangHuynhNhuY.pdf">RESUME</a>
+						|
+						<a href="https://github.com/ydang2002">GITHUB</a>
+					</span>/
+				</div>
+				<nav id="colorlib-main-menu" role="navigation" class="navbar">
+					<div id="navbar" class="collapse">
+						<ul>
+							<li><a href="#" data-nav-section="about">About</a></li>
+							<li><a href="#" data-nav-section="skills">Skills</a></li>
+							<li><a href="#" data-nav-section="education">Education</a></li>
+							<li><a href="#" data-nav-section="contact">Contact</a></li>
+						</ul>
+					</div>
+				</nav>
+
+			</aside>
+
+			<div id="colorlib-main">
+
+				<section class="colorlib-about" data-section="about">
+					<div class="colorlib-narrow-content">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+									<div class="col-md-12">
+										<div class="about-desc">
+											<h2 class="colorlib-heading">About</h2>
+											<p>I am Dang Huynh Nhu Y, a 4th year student at Saigon University. With passion in the field of mobile application
+												development. I have the ability to learn, work independently and in groups. With the desire to join an Android internship
+												environment to apply and develop my knowledge</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="colorlib-skills" data-section="skills">
+					<div class="colorlib-narrow-content">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+								data-animate-effect="fadeInLeft">
+								<h2 class="colorlib-heading animate-box">My Skills</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+								<p><strong>Languages:</strong> Java, Kotlin
+								</p>
+								<p>
+									<strong>Architectural Patterns:</strong> MVC, MVVM
+								</p>
+								<p>
+									<strong>User Interface (UI/UX):</strong> XML layout, RecyclerView, ConstraintLayout, RelativeLayout, LinearLayout... and custom View.
+								</p>
+								<p>
+									<strong>Other:</strong> Android studio, Git/GitHub, SourceTree, OOP, Retrofit, Firebase, Restful API,
+									JSON.
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="colorlib-education" data-section="education">
+					<div class="colorlib-narrow-content">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+								data-animate-effect="fadeInLeft">
+								<h2 class="colorlib-heading animate-box">Education</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+								<div class="fancy-collapse-panel">
+									<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+										<div class="panel panel-default">
+											<div class="panel-heading" role="tab" id="headingOne">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="#accordion"
+														href="#collapseOne" aria-expanded="true"
+														aria-controls="collapseOne">ENGINEERING DEGREE SOFTWARE
+														ENGINEERING
+													</a>
+												</h4>
+											</div>
+											<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+												aria-labelledby="headingOne">
+												<div class="panel-body">
+													<div class="row">
+														<div class="col-md-6">
+															<p>2020: Sai Gon University. </p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="colorlib-contact" data-section="contact">
+					<div class="colorlib-narrow-content">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+								data-animate-effect="fadeInLeft">
+								<h2 class="colorlib-heading">Contact</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-5">
+								<div class="colorlib-feature colorlib-feature-sm animate-box"
+									data-animate-effect="fadeInLeft">
+									<div class="colorlib-icon">
+										<i class="icon-globe-outline"></i>
+									</div>
+									<div class="colorlib-text">
+										<p><a href="#">nhuy.danghuynh@gmail.com</a></p>
+									</div>
+								</div>
+
+								<div class="colorlib-feature colorlib-feature-sm animate-box"
+									data-animate-effect="fadeInLeft">
+									<div class="colorlib-icon">
+										<i class="icon-map"></i>
+									</div>
+									<div class="colorlib-text">
+										<p>Ward 5, Distict Go Vap</p>
+									</div>
+								</div>
+
+								<div class="colorlib-feature colorlib-feature-sm animate-box"
+									data-animate-effect="fadeInLeft">
+									<div class="colorlib-icon">
+										<i class="icon-phone"></i>
+									</div>
+									<div class="colorlib-text">
+										<p><a href="tel://">+84 347390730</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-7 col-md-push-1">
+								<div class="row">
+									<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box"
+										data-animate-effect="fadeInRight">
+										<form action="">
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="Name">
+											</div>
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="Email">
+											</div>
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="Subject">
+											</div>
+											<div class="form-group">
+												<textarea name="" id="message" cols="30" rows="7" class="form-control"
+													placeholder="Message"></textarea>
+											</div>
+											<div class="form-group">
+												<input type="submit" class="btn btn-primary btn-send-message"
+													value="Send Message">
+											</div>
+										</form>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			</div><!-- end:colorlib-main -->
+		</div><!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+
+
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
 </body>
 
 </html>
